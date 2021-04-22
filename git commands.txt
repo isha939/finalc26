@@ -1,0 +1,71 @@
+Lenovo@DESKTOP-E3FJOJM MINGW64 ~
+$ git --version
+git version 2.31.1.windows.1
+
+Lenovo@DESKTOP-E3FJOJM MINGW64 ~
+$ pwd
+/c/Users/Lenovo
+
+Lenovo@DESKTOP-E3FJOJM MINGW64 ~
+$ cd desktop
+
+Lenovo@DESKTOP-E3FJOJM MINGW64 ~/desktop
+$ git clone https://github.com/whitehatjr/angryBirdsStage2.git
+fatal: destination path 'angryBirdsStage2' already exists and is not an empty di
+rectory.
+
+Lenovo@DESKTOP-E3FJOJM MINGW64 ~/desktop
+$ git clone https://github.com/whitehatjr/angryBirdsStage2.git
+Cloning into 'angryBirdsStage2'...
+remote: Enumerating objects: 38, done.
+remote: Total 38 (delta 0), reused 0 (delta 0), pack-reused 38 eceiving objects:
+Receiving objects:  68% (26/38), 1.27 MiB | 2.39 MiB/s
+Receiving objects: 100% (38/38), 2.54 MiB | 3.19 MiB/s, done.
+Resolving deltas: 100% (10/10), done.
+
+Lenovo@DESKTOP-E3FJOJM MINGW64 ~/desktop
+$ ls
+ Capture.PNG                        c26.pdf                'isha 1.jpg'
+'Personalized Horoscope 2021.pdf'   c26.txt                'isha 1.v2.jpg'
+'Visual Studio Code.lnk'*          'collision algorithm'/   matri.jpg
+ angry/                             confirm.jpeg            photoshop/
+ angryBirdsStage2/                  desktop.ini             resume.docx
+ array.txt                          git/                    student.txt
+ c25/                               horse.jpg               tests/
+ c26/                               inheritance/            whitehat/
+
+Lenovo@DESKTOP-E3FJOJM MINGW64 ~/desktop
+$ cd c26
+
+Lenovo@DESKTOP-E3FJOJM MINGW64 ~/desktop/c26 (master)
+$ git add sketch.js
+
+Lenovo@DESKTOP-E3FJOJM MINGW64 ~/desktop/c26 (master)
+$ git commit -m "Add platform"
+[master 7475243] Add platform
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Lenovo@DESKTOP-E3FJOJM MINGW64 ~/desktop/c26 (master)
+$ git config --global user.name "isha939"
+
+Lenovo@DESKTOP-E3FJOJM MINGW64 ~/desktop/c26 (master)
+$ git config --global user.email "mystical.phoenix1988@gmail.com"
+
+Lenovo@DESKTOP-E3FJOJM MINGW64 ~/desktop/c26 (master)
+$ git remote add test https://github.com/isha939/finalc26.git
+
+Lenovo@DESKTOP-E3FJOJM MINGW64 ~/desktop/c26 (master)
+$ git push -u test
+Enumerating objects: 41, done.
+Counting objects: 100% (41/41), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (41/41), 2.54 MiB | 3.73 MiB/s, done.
+Total 41 (delta 12), reused 36 (delta 10), pack-reused 0
+remote: Resolving deltas: 100% (12/12), done.
+To https://github.com/isha939/finalc26.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'test'.
+
+Lenovo@DESKTOP-E3FJOJM MINGW64 ~/desktop/c26 (master)
+$

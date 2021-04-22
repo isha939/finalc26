@@ -1,0 +1,46 @@
+https://gitforwindows.org/
+
+link for youtube video to revise the lecture
+https://www.youtube.com/watch?v=4qhMUTzTktY
+
+1. step
+Let's check which section of the computer's memory we are in right now.
+We do this by typing 'pwd'. pwd stands for present working directory.
+
+2. step
+You need to type the command 'ls' to list down all the files in this location.
+
+3. step
+You can in fact navigate to any other folder or directory and see the files/folders there.
+We use 'cd' (change directory) command to change the terminal's location to any other directory location. You need to enter the complete address of the location.
+You need to type cd <SPACE><location of the new directory>
+You can then use ‘ls’ to list down the contents of that directory.
+
+4. step
+We can also create a new directory/folder in any location using 'mkdir' commands.
+'mkdir' stands for make directory.
+You need to type mkdir<SPACE><Name and location of the new directory>
+If only the name of the directory is given, the directory is created in the default location.
+
+5. pwd-Print Working Directory. It prints the path of the working directory, starting from the root.
+● ls - list files and directories.
+● cd - change directory command to change the terminal's location to any other directory location.
+● mkdir - make directory.create a new directory/folder.
+
+One needs to get familiar with the following three areas while working with Git:
+1. There is a working tree.
+2. There is a staging area.
+3. There is a repository (local
+and remote).
+The Working Tree is the area where you are currently working. This is also known as the “untracked” area of Git. If you make changes and do not explicitly save them to Git, you will lose the changes made to your files.
+
+The Staging Area is when Git starts tracking and saving changes that occur in files. The Staging Area is when Git starts
+tracking and saving changes that occur in files.
+
+We need to add our sketch.js file to the staging area and then commit these changes (just like we did on GitHub after making changes to a file).
+Every commit is written with a commit message - so that later you can see the changes you made to the files.
+
+Git add <file_name>
+Git commit -m "<message>"
+(-m stands for message)
+
